@@ -1,0 +1,261 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:whitesmoke;
+}
+
+h2{
+  text-align: center;
+  font-family: fantasy;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+.section2{
+  text-align: center;
+  margin-top:60px;
+}
+
+.divNav{
+  display: flex;
+  position: fixed;
+  top:0px;
+}
+
+.navbar{
+  margin-top:0px;
+  background-color: lightblue;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-flex;
+}
+.navbar:hover{
+  cursor: pointer;
+}
+.navP{
+  margin-right:50px;
+  text-align: center;
+  text-decoration: none;
+}
+.navP:hover{
+  color: blue;
+}
+#theme-button{
+  background-color: lightblue;
+  border-color: transparent;
+}
+#theme-botton:hover{
+  cursor: pointer;
+}
+
+.dark-mode{
+  background-color: #121212; 
+  color: white;
+}
+
+
+.button1{
+  margin-top:30px;
+  border-radius: 20px;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  margin-left:700px;
+  background-color: lightpink;
+}
+
+.button1:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.button1:visited{
+  color: purple;
+}
+.buttonP{
+  margin-top:10px;
+  margin-bottom:5px;
+  background-color: lightpink;
+  border-radius: 20px;
+  padding:8px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-left:700px;
+}
+.buttonP:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.button2{
+  background-color: lightpink;
+  border-radius: 20px;
+  padding:8px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-left:720px;
+}
+.button2:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.button2:vist
+
+.p1{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 24px;
+}
+.petitionP{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:24px;
+}
+.p2{
+  display: inline-block;
+  font-size: 18px;
+  width: 200px;
+  height: 70px;
+  margin-left: 110px;
+  margin-right: 100px;
+  vertical-align: top;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.p3{
+  display: inline-flex;
+  font-size:15px;
+  width:200px;
+  height:70px;
+  margin-left:240px;
+}
+.p4{
+  display: inline-flex;
+  font-size:15px;
+  width:200px;
+  height:70px;
+  margin-left:650px;
+}
+.p5{
+  display:block;
+  font-size:18px;
+  width:200px;
+  height:70px;
+  margin-left: 650px;
+}
+
+.section1P{
+  display: inline-block;
+  margin-left: 650px;
+  font-size: 18px;
+  width: 200px;
+  height: 70px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.info1Div{
+  display: inline-flex;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.picH{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
+}
+
+.pic3{
+  display: inline-flex;
+  margin-left: 100px;
+  width: 420px;
+  height: 315px;
+}
+.h1{
+  text-align: center;
+  margin-top: 80px;
+}
+.section1{
+  margin-top:100px;
+  margin-bottom: 200px;
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+  
+}
+.header2{
+  display: block;
+}
+.pic4{
+  display: inline-flex;
+  width: 420px;
+  height: 315px;
+}
+.infoDiv{
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+  margin-top:50px;
+}
+.recentDiv{
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+}
+.contactDiv{
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+  margin-top:50px;
+  padding:10px;
+}
+.petition{
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+  margin-top:50px;
+  padding:10px;
+  margin-bottom: 20px;
+}
+.petition-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+.petition-para{
+  width: 55%;
+  padding-right: 10px;
+}
+.signatures{
+  display:inline-block;
+  padding-right: 10px;
+}
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+.furtherReading{
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+  margin-top:50px;
+  padding:10px;
+}
+#news{
+  background-color: lightblue;
+  border:1px solid transparent;
+  border-radius: 30px;
+  margin-top:50px;
+  padding:10px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Data invasion and privacy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <div class= "divNav">
+    <ul class= "navbar">
+      <a href="#home">
+       <p class = "navP">Home</p>
+      </a>
+      <p class = "navP"><a href = "#section1">What is Data Privacy?</a>
+      </p>
+      <p class = "navP"><a href = "#recentDiv">Recent News</a>
+      </p>
+      <p class = "navP"><a href = "#infoDiv">More Information</a>
+      </p>
+      <p class = "navP"><a href= "#contactDiv">Contact</a>
+      </p>
+      <button id="theme-button">Toggle Dark Mode</button>
+    </ul>
+  </div>
+  <br>
+  <br>
+  <a id="home">
+  <h1 class="h1">Data Invasion and privacy</h1>
+  <img class = "picH" src = pictures/mobile-privacy.png>
+  </a>
+
+
+  <a id="section1">
+  <div class ="section1">
+    <h2> What is Data Privacy? </h2>
+    <p class = "section1P"> Data Privacy is the concept of keeping data and information exclusively to the creator/user. When a company or someone's data privacy is violated this becomes a huge issue, legally and ethically. </p>
+    <br>
+      <a href="https://www.snia.org/education/what-is-data-privacy"><button class="buttonP">Learn More</button></a>
+  </div>
+  </a>
+
+
+  <a id="recentDiv">
+  <div class="recentDiv">
+    <h2> Recent News</h2>
+    <p class="p1">Issues due to data privacy have been prevelant in the world since the birth of the internet. And now big tech company Meta is getting worldwide attention! </p>
+    <div class = "divPar">
+    <img class = "pic3" src="pictures/pic3.jpeg">
+    <p class="p2">Large social media app giant Instagram, owned by Meta, has been involved in a lawsuit involving the country of Ireland. Instagram has been sued due to having teens under the age of 18 making their accounts "business accounts", which,before 2019, lead to publishings of users phone numbers and emails.  </p>
+    <iframe width="420" height="315"
+src="https://www.youtube.com/embed/N8RpJLleiis">
+</iframe>
+  </div>
+    <div>
+    <a href = "https://www.protocol.com/bulletins/meta-ireland-child-privacy-fine">
+      <button class="button1">Learn more!</button>
+    </a>
+  </div>
+  </div>
+  </a>
+
+  <br>
+
+
+  <a id="infoDiv">
+  <div class="infoDiv">
+  <h2 class=header2>More Information</h2>
+    <div class=pic3Div>
+      <img class="pic3" src="pictures/pic1.png">
+      <p class="p2">For those who like to see statisics and charts you can see them here in this section</p>
+      <img class="pic4" src="pictures/pic2.jpg">
+    </div>
+  <p class="p3">This graph shows poll results when people were asked about who is responsible for the protection of one's data privacy</p>
+  <p class="p4">This chart is showing how people adjusted certain settings in order to better protect themselves from possible information leaks</p>  
+  </div>
+  </a>
+  
+  <a href="contactDiv">
+  <div class="contactDiv">
+  <h2 class="header2">Contact</h2>
+  <p class="p5">If you or someone you know is having issues with data privacy, please click on the button below to view contacts that you can get in touch with.</p>
+    <br>
+    <br>
+  <a href= "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business"<button class="button2">next</button></a>
+  </div>  
+  </a>
+  
+  <div class="petition" id="petition">
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+
+      <div class="petition-para">
+        <p class="petitionP">For just a moment, think about your social media. Think about everything you post or have on your phone. How would you feel if one day your information was leaked such as your date of birth, address, contact information. Mistakes like this can be detrimental to anyone and a serious cause for concern. It's time that large apps and technology companies such as Meta, Instagram, and Twitter begin to start taking data privacy much more seriously. It's hurting us users and if you want to help us spread awareness to this issue, please sign our petition.</p>
+      </div>
+
+      <div class="signatures">
+        <p>🖊️ Janice from Brooklyn supports this.</p>
+        <p>🖊️ Antonio from Dallas supports this.</p>
+        <p>🖊️ Roy from Ireland supports this.</p>
+      </div>
+    
+    </div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+    <label for="name">Name:</label>
+    <input type="Name" id="name">
+    <label for="town">Hometown:</label>
+    <input type="Hometown" id="town">
+    <label for="email">Email:</label>
+    <input type="Email" id="email">
+    
+  </form>
+
+   <!--- Sign Now Button --->
+  <button id="sign-now-button">Sign Now</button>
+
+</div>
+
+
+
+  <div class="furtherReading">
+  <h2>For Further Reading</h2>
+    <p>If you would like to learn and read more about Data privacy, please check out the titles down below!</p>
+    <p id="readings"></p>
+    <a href="https://openlibrary.org/works/OL25186762W/Data_Privacy">
+      Data Privacy
+    </a>
+    <br>
+    <a href="https://openlibrary.org/works/OL23398433W/Data_protection_privacy"> Data protection & privacy</a>
+  </div>
+
+  <div id="news">
+    <h2>News</h2>
+    
+  </div>
+  
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <script src="index.js"></script>
+</body>
+
+</html>
